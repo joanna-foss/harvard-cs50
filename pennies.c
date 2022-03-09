@@ -1,5 +1,4 @@
 #include <cs50.h>
-#include <stdio.h>
 
 int main(void)
 {
@@ -15,3 +14,7 @@ int main(void)
 //Pennies: 123
 //Dollar amount: 4.20
 //Pennies: 419    <--   !!! What's this !!! floating-point imprecision
+
+//MUST implement round(amount * 100) at line 7 to avoid thiis problem.
+//Real world implication:
+//Boeing airplane requiring reboot after 248 days because 32-bit number would roll over and power would shut-off as side effect.
