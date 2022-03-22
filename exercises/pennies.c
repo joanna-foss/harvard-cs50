@@ -17,6 +17,6 @@ int main(void)
 //Dollar amount: 4.20
 //Pennies: 419    <--   !!! What's this !!! floating-point imprecision
 
-//MUST implement round(amount * 100) at line 7 to avoid thiis problem.
+//MUST implement round(amount * 100) at line 7 to avoid this problem.
 //Real world implication:
 //Boeing airplane requiring reboot after 248 days because 32-bit number would roll over and power would shut-off as side effect.
